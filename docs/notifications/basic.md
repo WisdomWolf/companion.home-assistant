@@ -31,10 +31,10 @@ notify:
   - name: ALL_DEVICES
     platform: group
     services:
-      - action: mobile_app_iphone_one
-      - action: mobile_app_iphone_two
-      - action: mobile_app_ipad_one
-      - action: mobile_app_pixel_4_xl
+      - service: mobile_app_iphone_one
+      - service: mobile_app_iphone_two
+      - service: mobile_app_ipad_one
+      - service: mobile_app_pixel_4_xl
 ```
 Now, you can send notifications to everyone in the group using:
 ```yaml
